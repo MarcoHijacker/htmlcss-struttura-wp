@@ -1,0 +1,55 @@
+/* CSS del Template di Struttura WordPress */
+
+/* Reset margini e paddin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Classe dell'header, sfondo giallo */
+header {
+  background-color: yellow;
+  height: 150px;
+  margin: 1%;
+}
+/* Clearfix del container generale */
+.container::after {
+  content: "";
+  display: table;
+  clear:both;
+}
+/* Classe della colonna sinistra con float left */
+.leftcol {
+  background-color: violet;
+  height: 300px;
+  width: 28%;
+  float: left;
+  margin-left: 1%;
+}
+/* Classe della colonna centrale con float left */
+.centercol {
+  background-color: darkviolet;
+  height: 430px;
+  width: 40%;
+  float: left;
+  margin: 0 1%;
+}
+/* Classe della colonna destra con float right */
+.rightcol {
+  /* background-color: violet; */
+  width: 28%;
+  float: right;
+  margin-right: 1%;
+}
+/* Classe paragrafi della colonna destra */
+.rightcol section {
+  background-color: violet;
+  height: 200px;
+  margin-bottom: 3%; /* Potevo fare diversamente? */
+}
+/* Classe footer */
+footer {
+  background-color: darkcyan;
+  height: 90px;
+  margin: 1%;
+}
