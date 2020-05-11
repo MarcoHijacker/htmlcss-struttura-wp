@@ -22,7 +22,7 @@ header {
 .leftcol {
   background-color: violet;
   height: 300px;
-  width: 28vw;
+  width: 28%; /* Era meglio VW qui? */
   float: left;
   margin-left: 1%;
 }
@@ -30,14 +30,14 @@ header {
 .centercol {
   background-color: darkviolet;
   height: 430px;
-  width: 40vw;
+  width: 40%;
   float: left;
   margin: 0 1%;
 }
 /* Classe della colonna destra con float right */
 .rightcol {
   /* background-color: violet; */
-  width: 28vw;
+  width: 28%;
   float: right;
   margin-right: 1%;
 }
