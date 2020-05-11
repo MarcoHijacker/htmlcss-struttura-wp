@@ -44,8 +44,12 @@ header {
 /* Classe paragrafi della colonna destra */
 .rightcol section {
   background-color: violet;
-  height: 200px;
+  height: 300px;
   margin-bottom: 3%; /* Potevo fare diversamente? */
+}
+/* Evito che l'ultima section possa sommare il margin-bottom con quello del footer */
+section:last-child {
+  margin-bottom: 0;
 }
 /* Classe footer */
 footer {
